@@ -10,7 +10,7 @@
         <section class="tm-content">
 
 
-            <h2>Sorry, this page in work process now. </h2>
+            <h2><?php the_field('note')?></h2>
 
             <div class="button-wrapper">
                 <ul class="sci">
@@ -30,28 +30,4 @@
 </div>
 </div>
 
-<div class="tm-row">
-    <div class="tm-col-left text-center">
-        <ul class="tm-bg-controls-wrapper">
-            <li class="tm-bg-control active" data-id="0"></li>
-            <li class="tm-bg-control" data-id="1"></li>
-            <li class="tm-bg-control" data-id="2"></li>
-        </ul>
-    </div>
-    <div class="tm-col-right tm-col-footer">
-        <footer class="tm-site-footer text-right">
-            <p class="mb-0">Copyright 2020
-
-                | <a rel="nofollow" target="_parent" href="https://www.facebook.com/konstantin.surnin.9" class="tm-text-link">Konstantin_Surnin</a></p>
-        </footer>
-    </div>
-</div>
-
-<!-- Diagonal background design -->
-<div class="tm-bg">
-    <div class="tm-bg-left"></div>
-    <div class="tm-bg-right"></div>
-</div>
-</div>
-
-</html>
+<?php get_footer()?>

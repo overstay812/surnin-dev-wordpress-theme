@@ -62,6 +62,3 @@ const moveBackground = event => {
 
 window.document.addEventListener('mousemove', moveBackground )
 
-
-
-console.log();

@@ -29,7 +29,7 @@ function theme_scripts()
 add_filter('nav_menu_link_attributes', 'nav_link_filter', 10, 4);
 function nav_link_filter($attr)
 {
-    if ($attr['href'] == get_bloginfo('url') . '/home/') {
+    if ($attr['href'] == get_bloginfo('url') . '/') {
         $attr['class'] = 'nav-link tm-nav-link';
     }
     if ($attr['href'] == get_bloginfo('url') . '/about/') {
